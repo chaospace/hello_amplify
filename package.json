@@ -12,6 +12,14 @@
     "react-dom": "^18.0.0",
     "styled-components": "^5.3.5"
   },
+  "scripts": {
+    "serve": "webpack server --mode development --config ./webpack/webpack.config.js",
+    "dev": "webpack --mode development --config ./webpack/weppack.config.js",
+    "build": "webpack --mode production --config ./webpack/weppack.config.js",
+    "test": "jest --watch",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
   "devDependencies": {
     "@babel/core": "^7.17.9",
     "@babel/plugin-transform-runtime": "^7.17.0",
