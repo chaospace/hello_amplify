@@ -14,8 +14,8 @@
   },
   "scripts": {
     "serve": "webpack server --mode development --config ./webpack/webpack.config.js",
-    "dev": "webpack --mode development --config ./webpack/weppack.config.js",
-    "build": "webpack --mode production --config ./webpack/weppack.config.js",
+    "dev": "webpack --mode development --config ./webpack/webpack.config.js",
+    "build": "webpack --mode production --config ./webpack/webpack.config.js",
     "test": "jest --watch",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
